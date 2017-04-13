@@ -1,0 +1,31 @@
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/cares.dep.build, logs at /tmp/bazel-envoy-deps/cares.dep.log
+Building in /tmp/bazel-envoy-deps/libevent.dep.build, logs at /tmp/bazel-envoy-deps/libevent.dep.log
+Building in /tmp/bazel-envoy-deps/googletest.dep.build, logs at /tmp/bazel-envoy-deps/googletest.dep.log
+Building in /tmp/bazel-envoy-deps/gperftools.dep.build, logs at /tmp/bazel-envoy-deps/gperftools.dep.log
+Building in /tmp/bazel-envoy-deps/spdlog.dep.build, logs at /tmp/bazel-envoy-deps/spdlog.dep.log
+Building in /tmp/bazel-envoy-deps/http-parser.dep.build, logs at /tmp/bazel-envoy-deps/http-parser.dep.log
+Building in /tmp/bazel-envoy-deps/protobuf.dep.build, logs at /tmp/bazel-envoy-deps/protobuf.dep.log
+Building in /tmp/bazel-envoy-deps/rapidjson.dep.build, logs at /tmp/bazel-envoy-deps/rapidjson.dep.log
+Building in /tmp/bazel-envoy-deps/nghttp2.dep.build, logs at /tmp/bazel-envoy-deps/nghttp2.dep.log
+Building in /tmp/bazel-envoy-deps/boringssl.dep.build, logs at /tmp/bazel-envoy-deps/boringssl.dep.log
+Building in /tmp/bazel-envoy-deps/tclap.dep.build, logs at /tmp/bazel-envoy-deps/tclap.dep.log
+Successful build of /tmp/bazel-envoy-deps/spdlog.dep
+Successful build of /tmp/bazel-envoy-deps/rapidjson.dep
+Successful build of /tmp/bazel-envoy-deps/http-parser.dep
+Successful build of /tmp/bazel-envoy-deps/tclap.dep
+Successful build of /tmp/bazel-envoy-deps/googletest.dep
+Successful build of /tmp/bazel-envoy-deps/boringssl.dep
+Successful build of /tmp/bazel-envoy-deps/nghttp2.dep
+Successful build of /tmp/bazel-envoy-deps/libevent.dep
+Successful build of /tmp/bazel-envoy-deps/gperftools.dep
+Successful build of /tmp/bazel-envoy-deps/protobuf.dep
+make: `/tmp/bazel-envoy-deps/protobuf.dep' is up to date.
+Building in /tmp/bazel-envoy-deps/lightstep.dep.build, logs at /tmp/bazel-envoy-deps/lightstep.dep.log
+Successful build of /tmp/bazel-envoy-deps/lightstep.dep
+Successful build of /tmp/bazel-envoy-deps/cares.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+
+real	1m48.709s
+user	9m40.024s
+sys	1m13.356s

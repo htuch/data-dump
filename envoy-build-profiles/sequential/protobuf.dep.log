@@ -1,0 +1,8 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/protobuf.sh
+0.00 set -e
+0.64 wget https://github.com/google/protobuf/releases/download/v3.2.0/protobuf-cpp-3.2.0.tar.gz
+0.11 tar xf protobuf-cpp-3.2.0.tar.gz
+0.12 rsync -av protobuf-3.2.0 /tmp/bazel-envoy-deps/thirdparty/
+0.00 cd protobuf-3.2.0
+11.87 ./configure --prefix=/tmp/bazel-envoy-deps/thirdparty_build/ --enable-shared=no
+39.52 make install

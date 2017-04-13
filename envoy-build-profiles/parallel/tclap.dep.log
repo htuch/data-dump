@@ -1,0 +1,5 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/tclap.sh
+0.00 set -e
+0.89 wget -O tclap-1.2.1.tar.gz https://sourceforge.net/projects/tclap/files/tclap-1.2.1.tar.gz/download
+0.03 tar xf tclap-1.2.1.tar.gz
+0.08 rsync -av tclap-1.2.1 /tmp/bazel-envoy-deps/thirdparty/

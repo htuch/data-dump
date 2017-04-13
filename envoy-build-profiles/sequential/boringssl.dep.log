@@ -1,0 +1,10 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/boringssl.sh
+0.00 set -e
+2.46 git clone https://boringssl.googlesource.com/boringssl
+0.00 cd boringssl
+0.16 git reset --hard b87c80300647c2c0311c1489a104470e099f1531
+0.66 cmake .
+10.81 make
+0.00 cp -r include/openssl /tmp/bazel-envoy-deps/thirdparty_build//include
+0.00 cp ssl/libssl.a /tmp/bazel-envoy-deps/thirdparty_build//lib
+0.00 cp crypto/libcrypto.a /tmp/bazel-envoy-deps/thirdparty_build//lib

@@ -1,0 +1,9 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/http-parser.sh
+0.00 set -e
+0.41 wget -O http-parser-v2.7.0.tar.gz https://github.com/nodejs/http-parser/archive/v2.7.0.tar.gz
+0.00 tar xf http-parser-v2.7.0.tar.gz
+0.00 cd http-parser-2.7.0
+0.53 /google/src/files/151979262/depot/google3/third_party/crosstool/v18/stable/wrappers/x86_64-grtev4-linux-gnu/bin/gcc -O2 -c http_parser.c -o http_parser.o
+0.01 ar rcs libhttp_parser.a http_parser.o
+0.00 cp libhttp_parser.a /tmp/bazel-envoy-deps/thirdparty_build//lib
+0.00 cp http_parser.h /tmp/bazel-envoy-deps/thirdparty_build//include

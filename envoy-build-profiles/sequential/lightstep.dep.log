@@ -1,0 +1,8 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/lightstep.sh
+0.00 set -e
+0.57 wget https://github.com/lightstep/lightstep-tracer-cpp/releases/download/v0_36/lightstep-tracer-cpp-0.36.tar.gz
+0.01 tar xf lightstep-tracer-cpp-0.36.tar.gz
+0.00 cd lightstep-tracer-cpp-0.36
+0.00 '[' -z /tmp/bazel-envoy-deps/thirdparty_build/ ']'
+3.32 ./configure --disable-grpc --prefix=/tmp/bazel-envoy-deps/thirdparty_build/ --enable-shared=no protobuf_CFLAGS=-I/tmp/bazel-envoy-deps/thirdparty_build//include 'protobuf_LIBS=-L/tmp/bazel-envoy-deps/thirdparty_build//lib -lprotobuf' PROTOC=/tmp/bazel-envoy-deps/thirdparty_build//bin/protoc
+7.47 make install

@@ -1,0 +1,7 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/gperftools.sh
+0.00 set -e
+0.73 wget https://github.com/gperftools/gperftools/releases/download/gperftools-2.5/gperftools-2.5.tar.gz
+0.04 tar xf gperftools-2.5.tar.gz
+0.00 cd gperftools-2.5
+17.81 ./configure --prefix=/tmp/bazel-envoy-deps/thirdparty_build/ --enable-shared=no --enable-frame-pointers
+33.69 make install

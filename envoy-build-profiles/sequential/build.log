@@ -1,0 +1,53 @@
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/cares.dep.build, logs at /tmp/bazel-envoy-deps/cares.dep.log
+Successful build of /tmp/bazel-envoy-deps/cares.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/libevent.dep.build, logs at /tmp/bazel-envoy-deps/libevent.dep.log
+Successful build of /tmp/bazel-envoy-deps/libevent.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/googletest.dep.build, logs at /tmp/bazel-envoy-deps/googletest.dep.log
+Successful build of /tmp/bazel-envoy-deps/googletest.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/gperftools.dep.build, logs at /tmp/bazel-envoy-deps/gperftools.dep.log
+Successful build of /tmp/bazel-envoy-deps/gperftools.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/http-parser.dep.build, logs at /tmp/bazel-envoy-deps/http-parser.dep.log
+Successful build of /tmp/bazel-envoy-deps/http-parser.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/protobuf.dep.build, logs at /tmp/bazel-envoy-deps/protobuf.dep.log
+Successful build of /tmp/bazel-envoy-deps/protobuf.dep
+Building in /tmp/bazel-envoy-deps/lightstep.dep.build, logs at /tmp/bazel-envoy-deps/lightstep.dep.log
+Successful build of /tmp/bazel-envoy-deps/lightstep.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/nghttp2.dep.build, logs at /tmp/bazel-envoy-deps/nghttp2.dep.log
+Successful build of /tmp/bazel-envoy-deps/nghttp2.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: `/tmp/bazel-envoy-deps/protobuf.dep' is up to date.
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/rapidjson.dep.build, logs at /tmp/bazel-envoy-deps/rapidjson.dep.log
+Successful build of /tmp/bazel-envoy-deps/rapidjson.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/spdlog.dep.build, logs at /tmp/bazel-envoy-deps/spdlog.dep.log
+Successful build of /tmp/bazel-envoy-deps/spdlog.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/boringssl.dep.build, logs at /tmp/bazel-envoy-deps/boringssl.dep.log
+Successful build of /tmp/bazel-envoy-deps/boringssl.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+make: Entering directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+Building in /tmp/bazel-envoy-deps/tclap.dep.build, logs at /tmp/bazel-envoy-deps/tclap.dep.log
+Successful build of /tmp/bazel-envoy-deps/tclap.dep
+make: Leaving directory `/usr/local/google/home/htuch/.cache/bazel/_bazel_htuch/89676793239ac96d94294e6c7a44597f/external/envoy_deps'
+
+real	3m8.961s
+user	9m18.228s
+sys	1m4.248s

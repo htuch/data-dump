@@ -1,0 +1,7 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/nghttp2.sh
+0.00 set -e
+0.86 wget https://github.com/nghttp2/nghttp2/releases/download/v1.20.0/nghttp2-1.20.0.tar.gz
+0.05 tar xf nghttp2-1.20.0.tar.gz
+0.00 cd nghttp2-1.20.0
+9.16 ./configure --prefix=/tmp/bazel-envoy-deps/thirdparty_build/ --enable-shared=no --enable-lib-only
+1.66 make install

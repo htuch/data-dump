@@ -1,0 +1,5 @@
+0.00 . /usr/local/google/home/htuch/src/envoy/ci/build_container/build_recipes/rapidjson.sh
+0.01 set -e
+0.45 wget -O rapidjson-1.1.0.tar.gz https://github.com/miloyip/rapidjson/archive/v1.1.0.tar.gz
+0.02 tar xf rapidjson-1.1.0.tar.gz
+0.06 rsync -av rapidjson-1.1.0 /tmp/bazel-envoy-deps/thirdparty/
